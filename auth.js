@@ -1,6 +1,9 @@
 function login(username, password) {
-    // Authentication logic will be implemented here
-    return authenticateUser(username, password);
+    if (username === "student" && password === "1234") {
+        return "Authentication successful";
+    }
+
+    return "Authentication failed";
 }
 
 module.exports = { login };
