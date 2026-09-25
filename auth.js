@@ -1,9 +1,9 @@
 function login(username, password) {
     if (username === "student" && password === "1234") {
-        return "Login successful";
+        return "Authentication successful";
     }
 
-    return "Invalid username or password";
+    return "Authentication failed";
 }
 
 module.exports = { login };
